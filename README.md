@@ -52,8 +52,8 @@ react-shopping-cart-checkout-feature/
 ## 🔧 Installation
 
 ```bash
-git clone https://github.com/your-username/react-shopping-cart-checkout-feature.git
-cd react-shopping-cart-checkout-feature
+git clone https://github.com/codedbymojnu/react-shopping-cart-and-checkout-feature.git
+cd react-shopping-cart-and-checkout-feature
 npm install
 npm start
 ```
