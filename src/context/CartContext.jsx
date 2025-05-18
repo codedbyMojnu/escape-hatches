@@ -1,7 +1,6 @@
 import { createContext, useContext, useReducer } from "react";
 import cartReducer from "../reducer/cart-reducer";
 
-const ProductContext = createContext(null);
 const CartContext = createContext(null);
 
 export default function CartProvider({ children }) {

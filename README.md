@@ -26,17 +26,27 @@ This is a simple and responsive shopping cart and checkout feature built with **
 
 ```
 react-shopping-cart-checkout-feature/
-├── components/
-│   ├── Header.jsx
-│   ├── Cart.jsx
-│   └── Checkout.jsx
-├── context/
-│   └── ProductContext.jsx
-├── svg/
-│   └── CartIcon.jsx
-├── App.jsx
-├── index.js
-└── ...
+└── src/
+    ├── assets/                    # Static assets like images, fonts (if any)
+    ├── components/                # UI components
+    │   ├── Cart.jsx
+    │   ├── CartPage.jsx
+    │   ├── Checkout.jsx
+    │   ├── Header.jsx
+    │   ├── HomePage.jsx
+    │   ├── Product.jsx
+    │   ├── ProductList.jsx
+    │   └── ProductPage.jsx
+    ├── context/
+    │   └── CartContext.jsx        # React Context for global state
+    ├── data/
+    │   └── product-data.js        # Static product data
+    ├── reducer/
+    │   └── cart-reducer.js        # Reducer logic for cart state
+    ├── svg/
+    │   └── CartIcon.jsx           # SVG icons used in the app
+    └── App.jsx                    # Main App component
+
 ```
 
 ## 🔧 Installation

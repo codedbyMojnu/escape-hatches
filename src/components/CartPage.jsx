@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { useCart } from "./context/ProductContext";
+import { useCart } from "../context/CartContext";
 
 export default function CartPage() {
   const [alertText, setAlertText] = useState(false);

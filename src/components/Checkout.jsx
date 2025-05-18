@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useCart } from "./context/ProductContext";
+import { useCart } from "../context/CartContext";
 
 export default function Checkout() {
   const [billingInfo, setBillingInfo] = useState({

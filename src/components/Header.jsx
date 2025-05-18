@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
+import CartIcon from "../svg/CartIcon";
 import Cart from "./Cart";
-import CartIcon from "./svg/CartIcon";
 
 export default function Header() {
   return (
